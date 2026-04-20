@@ -2,3 +2,4 @@ RewriteEngine On
 RewriteRule ^iclock/cdata$ index.php [L]
 RewriteRule ^attendance$ attendance.php [L]
 RewriteRule ^test$ test.php [L]
+RewriteRule ^raw$ raw.php [L]
