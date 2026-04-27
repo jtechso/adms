@@ -1,5 +1,9 @@
 RewriteEngine On
+RewriteRule ^test/iclock/cdata/?$ test.php [L,QSA,NC]
+RewriteRule ^attlog/iclock/cdata/?$ attlog.php [L,QSA,NC]
 RewriteRule ^iclock/cdata$ index.php [L]
 RewriteRule ^attendance$ attendance.php [L]
+RewriteRule ^attlog$ attlog.php [L,QSA,NC]
+RewriteRule ^log$ log.php [L,QSA,NC]
 RewriteRule ^test$ test.php [L]
 RewriteRule ^raw$ raw.php [L]
