@@ -1,0 +1,3 @@
+# Generated data/log files
+logs/*.json
+logs/*.log
